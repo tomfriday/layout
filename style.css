@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i');
+html {
+    font-size: 62.5%;
+}
+
+/*section header*/
+
+.header {
+    background-image: url(img/Layer%2034.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+nav h4 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: white;
+    opacity: 0.7;
+}
+nav li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Raleway', sans-serif;
+}
+.header-content {
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+    margin: 20% auto
+}
+.header-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6.5em;
+    font-weight: 700;
+}
+.header-content p {
+    font-size: 2.2em;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+@media (max-width:768px) {
+    .header-content h1 {
+        font-size: 3.5em;
+    }
+    .header-content p {
+        font-size: 2.2em;
+    }
+}
+.btn {
+    height: 50px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    background-color: rgb(232, 69, 69);
+    border: none;
+    margin-top: 10%;
+}
+
+/*section features*/
+
+.features .row {
+    margin-top: 30px;
+}
+.features .container {
+    margin-bottom: 130px;
+}
+.feature h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: 30px;
+}
+.feature p {
+    font-weight: normal;
+    font-size: 1.4em;
+}
+.features .cl {
+    margin-top: 5%;
+}
+
+/*section works*/
+
+.works .cl {
+    margin: 0;
+    padding: 0;
+}
+.works img {
+    width: 100%;
+    height: 100%;
+}
+.works h5 p {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    font-size: 200px;
+}
+.layer img {
+    position: relative;
+}
+.napis {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.napis h5 {
+    font-weight: 700;
+    font-size: 1.4em;
+    color: white;
+}
+.napis p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: white;
+}
+
+/*section team*/
+
+.team-content {
+    margin-top: 10%;
+}
+.team h4,
+.team h5,
+.team p {
+    text-align: left;
+}
+.team h5 {
+    color: rgb(232, 69, 69);
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.team h4 {
+    color: rgb(69, 71, 73);
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.team p {
+    color: rgb(69, 71, 73);
+    font-size: 1.4em;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.socials {
+    text-align: left;
+}
+.socials button {
+    cursor: pointer;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(232, 236, 238);
+}
+
+/*section integer*/
+
+.integer .cl {
+    margin: 0;
+    padding: 0;
+}
+.integer {
+    margin-top: 10%;
+}
+.integer img {
+    width: 100%;
+    height: 100%;
+}
+.integer .halfpage-layer {
+    background-color: rgb(83, 53, 74);
+    width: 100%;
+    height: 100%;
+}
+.integer h1 {
+    font-family: 'Cardo', serif;
+    color: white;
+    font-size: 3.6em;
+    font-weight: italic;
+}
+.integer-text {
+    max-width: 60%;
+    padding: 70px;
+}
+.integer h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 30px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+    opacity: 0.4;
+}
+.navigation-dots {
+    margin-top: 65px;
+    margin-left: 50%;
+}
+.dotActive {
+    opacity: 1;
+}
+@media (max-width:600px) {
+    .integer .halfpage-layer {
+        display: none;
+    }
+}
