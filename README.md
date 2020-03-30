@@ -1,3 +1,3 @@
 layout3
 
-HTML CSS JS
+HTML CSS Photoshop
